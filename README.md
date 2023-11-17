@@ -1,4 +1,4 @@
-# Recipe Search Platform
+# div'sDishes - Recipe Search Platform
 
 Built using HTML, CSS, and Vanilla JavaScript.
 
