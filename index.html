@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>div's Dishes</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/tablogo.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <section class="main">
+      <!-- Header -->
+      <div class="header">
+        <img
+          class="logoMain"
+          onclick="location.reload();"
+          src="./images/logo.png"
+          alt="Logo"
+        />
+        <form id="myForm">
+          <input
+            type="text"
+            class="inputField"
+            name="name"
+            placeholder="Search recipes..."
+            required
+          />
+          <button class="submitForm" type="submit">
+            <img src="./images/search.png" alt="serach button" />
+          </button>
+        </form>
+
+        <!-- for going back to recipe page -->
+        <button class="hidden goBack">
+          <img src="./images/goBack.png" alt="back" />
+        </button>
+
+        <!-- for adding a recipe in bookmark -->
+        <button class="hidden addToBookmark">
+          <img src="./images/addToBookmark.png" alt="addToBookmark" />
+        </button>
+
+        <div class="buttonsHeader">
+          <span class="button1">
+            <img src="./images/bookmark.png" alt="bookmark" />
+          </span>
+          <!-- <span class="button2 hidden">
+            <img src="/add.png" alt="add recipe" />
+          </span> -->
+        </div>
+
+        <!-- bookmarksTabText on header-->
+        <div class="bookmarksTabText hidden" onclick="location.reload();">
+          Bookmarks
+        </div>
+        <!-- for going home -->
+        <div class="bookmarksGoHome hidden" onclick="location.reload();">
+          <img src="./images/homeButton.png" alt="Home" />
+        </div>
+      </div>
+
+      <!-- bookmarks popup -->
+      <div class="bookmarkPopup hidden">Added to bookmarks :)</div>
+
+      <!-- start page content -->
+      <div class="startPage">
+        <div class="startPageContentText">
+          Search for your favourite recipes :)
+        </div>
+      </div>
+
+      <!-- all bookmarks tab -->
+      <div class="bookmarksCollection hidden">
+        <div class="bookmarksCollectionHeading">Bookmarks</div>
+        <div class="bookmarksCollectionData"></div>
+      </div>
+
+      <!-- Loader -->
+      <div class="loader hidden"></div>
+
+      <!-- Cardbox -->
+      <div class="cardBox"></div>
+
+      <!-- Details -->
+      <div class="details hidden"></div>
+    </section>
+
+    <!-- End of section -->
+
+    <!-- Footer -->
+    <div class="footer">
+      <div class="copyRight">&copy; Made by Divyansh</div>
+      <div>
+        <a href="https://github.com/Div9411" target="_blank"
+          ><img class="socials1" src="./images/githubicon.png" alt="github"
+        /></a>
+        <a href="mailto:work.divyanshsingh@gmail.com" target="_blank"
+          ><img class="socials2" src="./images/mailicon.png" alt="mail"
+        /></a>
+      </div>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
