@@ -5,6 +5,7 @@ Built using HTML, CSS, and Vanilla JavaScript.
 ## Functionalities:
 
 - Search recipes.
+- Integrated localStorage for persistent data storage.
 - Check details and ingredients.
 - Add your favorite recipes to bookmarks.
 - Remove unwanted bookmarks.
